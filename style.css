@@ -1,0 +1,84 @@
+/*.header {
+	padding : 5px;
+	background-color : black;
+	text-align : center;
+	color : white;
+	margin : 0 0 10px 0 ;
+}
+
+.paris, .oujda, .rabat{
+	padding : 5px;
+	background-color : hsla(50, 10%, 40%, .75);
+	color : white;
+	margin : 10px 0 ;
+}
+
+
+
+footer {
+	padding : 5px;
+	background-color : rgb(224, 233, 241);
+	color : black;
+	margin : 0 0 10px 0 ;
+}
+
+footer a{
+		color : blue;
+}*/
+
+body {
+flex-flow: row wrap;
+}
+
+img {
+	height : 130px;
+	width : 100px;
+	float : right;
+	flex-direction : row;
+}
+
+.header {
+	padding : 5px;
+	background-color : black;
+	text-align : center;
+	color : white;
+	margin : 0 0 10px 0 ;
+}
+
+.paris , .nice , .lille {
+	padding : 5px 10px ;
+	background-color : hsla(50, 10%, 40%, .75);
+	color : white;
+	margin-top : 30px;
+	margin-left : 10px  ;
+	margin-right : 10px;
+	margin-bottom : 30px;
+	width : 250px;		
+	height : 300px;
+
+}
+
+.paris , .nice , .lille{
+	font-size : 30px;
+}
+
+
+footer {
+	padding : 5px;
+	background-color : rgb(224, 233, 241);
+	color : black;
+	margin :  10px 10px ;
+	
+
+}
+nav {
+	display : flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	
+	
+}
+footer a{
+		color : blue;
+}
+
