@@ -50,13 +50,14 @@ footer {
 	
 
 }
-.phrase {
+#phrase {
 	margin-left : 10px  ;
 	margin-right : 10px;
 	margin-top : 122px  ;
 	margin-bottom: 122px;
 	padding-bottom : 2px;
 }
+
 .div1 {
 	display: flex;
 	flex-wrap: wrap;
