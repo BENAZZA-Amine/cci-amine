@@ -1,41 +1,47 @@
 <!DOCTYPE html>
 <html>
 	<head>
-	
 	  <title>Méteo</title>
 	  <meta charset="UTF-8">
 	  <link rel="stylesheet" href="style.css">
-	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+	  <script type="text/javascript" src="meteo.js"></script>
 	</head>
+	
 	<body>
-	<header class="header">
-	<h1> TP Météo </h1>
-	</header>
-	<nav>
-	<div class="paris">
-	<h2>Paris<img src="image1.png" height=10% width=10%></h2>
-	<p>10°, nuageux</p>
+		<header class="header">
+			<h1> TP Météo HTML </h1>
+		</header>
+		
+		<label for="capital" style="font-size: 20px; color: gray;"> Choisir une ville :</label>
+		<select onchange=showCity(this) id="sel" name="capital" width="200px">
+			<option value="phrase">Choix</option>
+			<option value="Paris">Paris</option>
+			<option value="Lille">Lille</option>
+			<option value="Nice">Nice</option>
+		</select>
 	
-	</div>
+		<nav>
+			<div id="paris" class="city" style="display: none;">
+				<h2>Paris<img src="image1.png" height=10% width=10%></h2>
+				<p>10°, nuageux</p>
+			</div>
 	
 	
-	<div class="nice">
-	<h2>Nice<img src="nice.png" height=10% width=10%></h2>
-	<p>30°, ensoleillé</p>
+			<div id="Lille" class="city" style="display: none;">
+				<h2>Lille<img src="lille.png" height=10% width=10%></h2>
+				<p>30°, ensoleillé</p>
+			</div>
 	
-	</div>
-	
-	<div class="lille">
-	<h2>Lille<img src="lille.png" height=10% width=10%></h2>
-	<p>13°, pluvieux</p>
-	
-	</div>
-	</nav>
-	<footer>
-	<p>BENAZZA Amine And LYAGOUBI Mohamed</p>
-	<p>Icones météo par <a href="https://thenounproject.com/search/collection/?q=weather">Noun Project</a></p>
-	</footer>
+			<div id="Nice" class="city" style="display: none;">
+				<h2>Lille<img src="lille.png" height=10% width=10%></h2>
+				<p>13°, pluvieux</p>
+			</div>
+		</nav>
+		
+		<footer>
+			<p>BENAZZA Amine And LYAGOUBI Mohamed</p>
+			<p>Icones météo par <a href="https://thenounproject.com/search/collection/?q=weather">Noun Project</a></p>
+		</footer>
 	
 	</body>
 	
